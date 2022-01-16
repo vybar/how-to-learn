@@ -55,7 +55,6 @@
   color: #2f80ed;
 }
 
-/* Опять двойка */
 .header__main_illustration {
   height: 608px;
   width: 765px;
@@ -65,7 +64,6 @@
   z-index: 2;
 }
 
-/* Фигура квадрат */
 .header__square-pic {
   top: 64px;
   height: 568px;
@@ -76,8 +74,7 @@
   z-index: 1;
 }
 
-
-/*Блок описание*/
+/* Блок Описание */
 .description {
   display: flex;
   padding-top: 100px;
@@ -274,7 +271,6 @@
   width: 90%;
   margin: 0 auto 40px auto;
   padding-top: 60px;
-  width: 90%;
   height: 250px;
   display: flex;
   flex-direction: row;
