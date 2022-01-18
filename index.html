@@ -11,44 +11,40 @@
   <div class="page">
     <!-- Шапка сайта -->
     <header class="header">
-      <div class='logo logo_place_header'>
-        <a href="#" class='logo__link'>
-          <img src="./images/logo_place_header.svg" alt="Логотип Яндекса" class="logo_place_header">
-        </a>
-      </div>
+      <img src="./images/logo_place_header.svg" alt="Логотип Яндекса" class="logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
       <p class='header__subtitle'>Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
-        <a href="#" class="link">Узнать</a>
+        <a href="#" class="header__link">Узнать &#8594;</a>
       </p>
-      <img src="./images/header-image.png" alt="Получил двойку" class="header__main_illustration">
+      <img src="./images/header-image.png" alt="Получил двойку" class="header__main-illustration">
       <div class='header__square-pic'></div>
     </header>
 
     <main class="content">
       <section class="description">
-        <ul class="two-columns">
-          <li class="description__two-columns__brief"> <h2 class="description__two-columns__brief">Главные проблемы в обучение</h2></li>
-          <li class=" description__two-columns__main-text">
-            <p class=" description__two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно
+        <div class="two-columns">
+          <div class="two-columns__brief"> <h2 class="two-columns__brief">Главные проблемы в обучение</h2></div>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно
               изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
               тренируемся решать однообразные задачи, чтобы лучше сдать тест,
               но часто в итоге это не дает нам реального знания. Зубрежка
               быстро выветривается и не приносит пользы.</p>
-            <p class=" description__two-columns__paragraph"> <span class="description__two-columns__paragraph__span-accent">Вывод</span> учиться
+            <p class="two-columns__paragraph"> <span class="two-columns__span-accent">Вывод:</span> учиться
               тоже нужно уметь, но почему-то этому мало где учат. Что с этим
               делать?</p>
-            <p class=" description__two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к
+            <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к
               обучению, сделать его эффективным и захватывающим. Эти же
               техники применяются на примере обучения в Практикуме.</p>
-          </li>
-        </ul>
+          </div>
+        </div>
       </section>
 
       <!--Блок Цифры и факты-->
       <section class="digits">
-        <h3 class="digits__title_h3">Цифры и факты</h3>
-        <p class="digits__subtitle">Про учебу и мозг</p>
+        <h2 class="section-title">Цифры и факты</h2>
+        <p class="section-subtitle">Про учебу и мозг</p>
         <div class="table">
           <div class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -99,15 +95,15 @@
 
       <!--Блок Фрейнман-->
       <section class="feynman">
-        <h2 class="freynman__title_h2">Метод Фреймана</h2>
-        <p class="freynman__subtitle">Выучить и не забыть.</p>
+        <h2 class="feynman__title">Метод Фреймана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="freynman__link">Подробнее &#8594;</a>
       </section>
 
       <!--Блок Кауфман-->
       <section class="kaufman">
-        <h2 class="kaufman__title_h2">Принципы обучения</h2>
-        <p class="kaufman__subtitle">от Джоша Кауфмана</p>
+        <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <div class="table">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">1</h3>
@@ -160,42 +156,39 @@
           </div>
 
         </div>
-        <div class="triangle"></div>
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <!-- Подвал сайта -->
     <footer class="footer">
-      <div class="footer__column">
-        <div class="copyright">
-          <div class='logo logo_place_footer'>
-            <a href="#" class='footer__logo__link'>
-              <img src="./images/logo_place_footer.svg" alt="Логотип Яндекса" class="logo_place_footer">
-            </a>
-          </div>
-          <p class="footer__column__author footer__column__copyright">&copy; 2022, vybar</p>
+      <div class="footer__columns">
+        <div class="footer__column_content_copyright">
+          <img src="./images/logo_place_footer.svg" alt="Логотип Яндекса" class="logo_place_footer">
+          <p class="footer__author">&copy; 2022, vybar</p>
         </div>
-          <div class="footer__column__info">
+          <div class="footer__column_content_info" >
             <h3 class="footer__column-heading">О Практикуме</h3>
-            <ul class="footer__column-links">
-              <li><a class="footer__column-links" href="practicum.yandex.ru">Главная</a></li>
-              <li><a class="footer__column-links" href="#">Концепция</a></li>
-              <li><a class="footer__column-links" href="#">Наставник</a></li>
-            </ul>
+            <nav class="menu">
+              <ul class="footer__column-links">
+                <li><a class="footer__column-link" href="practicum.yandex.ru">Главная</a></li>
+                <li><a class="footer__column-link" href="#">Концепция</a></li>
+                <li><a class="footer__column-link" href="#">Наставник</a></li>
+              </ul>
+            </nav>
           </div>
           <div class="footer__column__social">
             <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
-              <li class="footer__column-links" >
-                <img src="../images/vk_color_white.svg" alt="фейсбук">
-                <a class="footer__column-links" href="https://www.facebook.com/">Facebook</a>
+              <li>
+                <a class="footer__column-link" href="https://www.facebook.com/"><img src="./images/vk_color_white.svg" alt="фейсбук"> Facebook</a>
               </li>
-              <li  class="footer__column-links">
-                <img src="../images/vk_color_white.svg" alt="вконтакте">
-                <a class="footer__column-links" href="https://vk.com/">Вконтакте</a>
+              <li>
+                <a class="footer__column-link" href="https://vk.com/">
+                  <img src="./images/vk_color_white.svg" alt="вконтакте"> Вконтакте</a>
               </li>
-              <li  class="footer__column-links">
-                <img src="../images/instagram_color_white.svg" alt="инстаграм">
-                <a class="footer__column-links" href="https://www.instagram.com/">instagram</a>
+              <li>
+                <a class="footer__column-link" href="https://www.instagram.com/">
+                  <img src="./images/instagram_color_white.svg" alt="инстаграм"> instagram</a>
               </li>
             </ul>
           </div>
