@@ -19,9 +19,12 @@
   position: relative;
 }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
-  width: 183px;
   height: 32px;
   top: 30px;
   left: 64px;
@@ -104,6 +107,7 @@
   width: 80%;
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .two-columns__paragraph {
@@ -111,7 +115,6 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0;
-  gap: 30px;
 }
 
 .two-columns__span-accent {
@@ -221,7 +224,7 @@
   padding-top: 90px;
   padding-bottom: 90px;
   position: relative;
-  background-color: black;
+  background-color: #1F1F1F;
   overflow: hidden;
 }
 
@@ -251,7 +254,6 @@
   background-repeat: no-repeat;
   position: absolute;
   right: -210px;
-  overflow: hidden;
   top:0;
   z-index: 1;
 }
@@ -259,7 +261,7 @@
 /* Подвал сайта */
 .footer {
   min-height: 350px;
-  background-color: #000000;
+  background-color: #1F1F1F;
 }
 
 .footer__columns {
@@ -284,16 +286,11 @@
 }
 
 .logo_place_footer {
-  width: 183px;
-  height: 32px;
+  height: 35px;
 }
 
 .footer__author {
-  margin: 18 0 0 18;
-}
-
-.footer__column_content_info {
-
+  margin: 18px 0 18px 0;
 }
 
 .footer__column-heading {
@@ -302,12 +299,12 @@
   font-size: 18px;
   font-weight: bold;
   color: white;
-
 }
 
 .footer__column-links {
   list-style-type: none;
   padding-left: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
@@ -316,5 +313,4 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-
 }
