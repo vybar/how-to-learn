@@ -1,11 +1,7 @@
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
-
 @import url(__cell/table__cell.css);
 @import url(__heading/table__heading.css);
 @import url(__text/table__text.css);
+@import url(__cell/_theme_dark/table__cell_theme_dark.css);
 
 .table {
   display:flex;

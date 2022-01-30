@@ -4,7 +4,7 @@
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/description/description.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
@@ -22,3 +22,4 @@
 @import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/cards/cards.css);
