@@ -1,0 +1,9 @@
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}

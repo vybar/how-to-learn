@@ -1,0 +1,6 @@
+@import url(/blocks/two-columns/two-columns.css);
+
+.description {
+  display: flex;
+  padding-top: 100px;
+}
